@@ -7,14 +7,14 @@ const Contact = () => {
         {/* <h2 className="text-[200] text-center md:text-6xl">Contact Me</h2>s */}
       <div className="grid mt-12 md:grid-cols-2 gap-10">
         <div className="space-y-g">
-          <h2 className="text-7xl mb-5" >Get in touch</h2>
-          <p className="text-white mb-5 text-[20px] pt-2">
+          <h2 data-aos="zoom-in-up" className="text-7xl mb-5" >Get in touch</h2>
+          <p data-aos="zoom-in-up" className="text-white mb-5 text-[20px] pt-2">
             drop me a line, give me a call, or a message by submitting the form{" "}
           </p>
-          <div className="flex gap-3 mb-5 items-center">
+          <div data-aos="zoom-in-up" className="flex gap-3 mb-5 items-center">
             <AiOutlineMail size={30} /> Bilalniazi592@gmail.com
           </div>
-          <div className="flex gap-3 mb-5 items-center">
+          <div data-aos="zoom-in-up" className="flex gap-3 mb-5 items-center">
             <BsTelephone size={30} /> 03023320136
           </div>
         </div>

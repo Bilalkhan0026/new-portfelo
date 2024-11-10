@@ -18,9 +18,9 @@ const Hero = () => {
         <div className="text-[90px] sm:text-[120px] font-bold leading-tight flex justify-center items-center">
           <div>
             
-            <p>I m</p>
-            <p>Bilal</p>
-            <p>Khan</p>
+            <p data-aos="zoom-in-up">I m</p>
+            <p data-aos="zoom-in-up">Bilal</p>
+            <p data-aos="zoom-in-up">Khan</p>
           </div>
         </div>
       </div>
