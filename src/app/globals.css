@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        color: #fff;
+        background-color:#043873
+    }
+}
+@layer components {
+    .menulink {
+      @apply cursor-pointer hover:text-[red];
+    }
+}
